@@ -8,29 +8,114 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:textSize="30sp"
-        android:text="View 1"
+        android:id="@+id/Textview4"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <TextView
-        android:layout_alignParentRight="true"
-        android:textSize="30sp"
-        android:text="View 2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <TextView
-        android:layout_alignParentBottom="true"
-        android:textSize="30sp"
-        android:text="View 3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-    <TextView
-        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
-        android:textSize="30sp"
-        android:text="View 4"
+        android:layout_centerInParent="true"
+        android:background="#9C27B0"
+        android:paddingHorizontal="43dp"
+        android:paddingVertical="10dp"
+        android:text="4"
+        android:textSize="30sp" />
+    <TextView
+        android:id="@+id/Textview3"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Textview4"
+        android:layout_toLeftOf="@+id/Textview4"
+        android:background="#CDAB44"
+        android:paddingHorizontal="43dp"
+        android:paddingVertical="10dp"
+        android:text="3"
+        android:textSize="30sp" />
+    <TextView
+        android:id="@+id/Textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Textview3"
+        android:layout_toLeftOf="@+id/Textview3"
+        android:background="#4CAF50"
+        android:paddingHorizontal="43dp"
+        android:paddingVertical="10dp"
+        android:text="2"
+        android:textSize="30sp" />
+    <TextView
+        android:id="@+id/Textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Textview2"
+        android:layout_toLeftOf="@+id/Textview2"
+        android:background="#EC0723"
+        android:paddingHorizontal="43dp"
+        android:paddingVertical="10dp"
+        android:text="1"
+        android:textSize="30sp" />
+    <TextView
+        android:id="@+id/Textview3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Textview4"
+        android:layout_toLeftOf="@+id/Textview4"
+        android:background="#CDAB44"
+        android:paddingHorizontal="43dp"
+        android:paddingVertical="10dp"
+        android:text="3"
+        android:textSize="30sp" />
+    <TextView
+        android:id="@+id/Textview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Textview3"
+        android:layout_toLeftOf="@+id/Textview3"
+        android:background="#4CAF50"
+        android:paddingHorizontal="43dp"
+        android:paddingVertical="10dp"
+        android:text="2"
+        android:textSize="30sp" />
+    <TextView
+        android:id="@+id/Textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Textview2"
+        android:layout_toLeftOf="@+id/Textview2"
+        android:background="#EC0723"
+        android:paddingHorizontal="43dp"
+        android:paddingVertical="10dp"
+        android:text="1"
+        android:textSize="30sp" />
+    <TextView
+        android:id="@+id/Textview5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Textview4"
+        android:layout_toLeftOf="@+id/Textview4"
+        android:background="#87543D"
+        android:paddingHorizontal="43dp"
+        android:paddingVertical="10dp"
+        android:text="5"
+        android:textSize="30sp" />
+    <TextView
+        android:id="@+id/Textview6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Textview5"
+        android:layout_toLeftOf="@+id/Textview5"
+        android:background="#C5944B"
+        android:paddingHorizontal="43dp"
+        android:paddingVertical="10dp"
+        android:text="6"
+        android:textSize="30sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Textview6"
+        android:layout_toLeftOf="@+id/Textview6"
+        android:background="#41D3B5"
+        android:paddingHorizontal="43dp"
+        android:paddingVertical="10dp"
+        android:text="7"
+        android:textSize="30sp" />
 
 
 </RelativeLayout>
